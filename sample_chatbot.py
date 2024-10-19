@@ -1,4 +1,3 @@
-73% of storage used … If you run out, you can't create, edit, and upload files. Get 100 GB of storage for $1.99 $0 for 1 month.
 import os
 from llama_index.core import PromptTemplate, SimpleDirectoryReader, VectorStoreIndex, Settings, StorageContext, load_index_from_storage
 from llama_index.embeddings.ollama import OllamaEmbedding
