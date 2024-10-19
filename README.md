@@ -1,1 +1,1 @@
-# osu_eorgs_LLM
+# Ohio state Engineering Orgs LLM
