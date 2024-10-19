@@ -1,3 +1,4 @@
+
 import os
 from llama_index.core import PromptTemplate, SimpleDirectoryReader, VectorStoreIndex, Settings, StorageContext, load_index_from_storage
 from llama_index.embeddings.ollama import OllamaEmbedding
@@ -11,7 +12,7 @@ Settings.embed_model = OllamaEmbedding(model_name="nomic-embed-text")
 persist_dir = "./saved_index"
 
 # Define the path where you saved "Documents"
-file_dir = '/home/drg/cbus-chatbot/'
+file_dir = '/Users/kaspiper/Documents/GitHub/osu_eorgs_LLM/'
 
 
 def create_or_load_index(force_rebuild=False):
